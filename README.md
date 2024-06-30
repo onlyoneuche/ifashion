@@ -15,3 +15,28 @@ git clone <link you copied> from your forked repo
 ```
 
 NB: You might be asked to setup SSH (Let me know)
+
+"Pages to create: home > products > bookings > about > events"
+
+palettes
+```
+.black-ish { 
+	background: #272343; 
+}
+	
+.cream-ish { 
+	background: #ffffff; 
+}
+
+.light-green-ish { 
+	background: #e3f6f5; 
+}
+
+.mint-ish { 
+	background: #0c5e5e; 
+}
+
+.pink-ish { 
+	background: #f76b8a; 
+}
+```

@@ -1,0 +1,47 @@
+.topnav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: normal; /* Distribute items evenly across the main axis */
+    background-color: #ffffff; /* Example background color */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    padding-top: 1.2%;
+}
+
+.topnav a {
+    color: #000000; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 14px 16px; /* Padding inside each link */
+    text-decoration: none; /* Remove underline */
+    font-size: 25px;
+    font: italic 1.5rem "Fira Sans", serif;
+    padding-left: 4%;
+    padding-right: 4px;
+}
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #f76b8a;
+  }
+
+.centered-link {
+    position: absolute; /* Position absolutely within the flex container */
+    left: 50%; /* Move to the center horizontally */
+    transform: translateX(-50%); /* Adjust to center perfectly */
+    padding-top: 0.12%;
+    font-size: large;
+}
+
+.centered-link a.middle-split {
+    font-size: 40px;
+}
+
+.topnav a.split {
+    right: 100%;
+}
+
+#bannerimage {
+    background-image: url("../ifashion/img/banner2.jpg");
+    background-color: purple;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+  }
