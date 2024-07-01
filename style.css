@@ -1,47 +1,64 @@
-.topnav {
-    display: flex; /* Use flexbox for layout */
-    justify-content: normal; /* Distribute items evenly across the main axis */
-    background-color: #ffffff; /* Example background color */
-    overflow: hidden; /* Ensures content doesn't overflow */
-    padding-top: 1.2%;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.topnav a {
-    color: #000000; /* Text color */
-    text-align: center; /* Center align text */
-    padding: 14px 16px; /* Padding inside each link */
-    text-decoration: none; /* Remove underline */
-    font-size: 25px;
-    font: italic 1.5rem "Fira Sans", serif;
-    padding-left: 4%;
-    padding-right: 4px;
+.home {
+    background-image: url('./img/malicki-m-beser-PKMvkg7vnUo-unsplash.jpg');
+    background-size: cover;
 }
 
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    color: #f76b8a;
-  }
 
-.centered-link {
-    position: absolute; /* Position absolutely within the flex container */
-    left: 50%; /* Move to the center horizontally */
-    transform: translateX(-50%); /* Adjust to center perfectly */
-    padding-top: 0.12%;
-    font-size: large;
+li, a, button {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #141010;
+    text-decoration: none;
 }
 
-.centered-link a.middle-split {
-    font-size: 40px;
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-.topnav a.split {
-    right: 100%;
+.logo {
+    cursor: pointer;
+    margin-right: auto;
 }
 
-#bannerimage {
-    background-image: url("../ifashion/img/banner2.jpg");
-    background-color: purple;
-    background-position: center center;
-    background-repeat: no-repeat;
-    
-  }
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.6s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #f70776;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(230, 27, 145);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(221, 113, 253, 0.8);
+}
