@@ -1,28 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iFashion+ | Events</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    
-    <header>
-      <a href="./index.html" class="logo">iFashion+</a>
-       <!-- <img src="" alt="iFashon+"> -->
-      <nav>
-        <ul class="nav-links">
-          <li><a href="./products.html">Products</a></li>
-          <li><a href="./events.html">Events</a></li>
-          <li><a href="./about.html">About</a></li>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="logo">iFashion+</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="trustees.html">Board of Trustees</a></li>
+            <li><a href="appointments.html">Appointments</a></li>
+            <li><a href="events.html" class="active">Events</a></li>
         </ul>
-      </nav>
-      <a href="./contact.html" class="cta">
-        <button>Contact</button>
-      </a>
-    </header>
-  </body>
+    </nav>
+</header>
+
+<div class="marquee">
+    <span>Join us for our upcoming fashion shows and events!</span>
+</div>
+
+<main>
+    <h1>Upcoming Events</h1>
+    <ul class="events-list">
+        <li class="event-item">
+            <h3>Summer Collection Launch</h3>
+            <p>Date: July 15, 2024</p>
+            <p>Location: iFashion+ Main Store</p>
+        </li>
+        <li class="event-item">
+            <h3>Fashion Week Showcase</h3>
+            <p>Date: September 5-10, 2024</p>
+            <p>Location: City Convention Center</p>
+        </li>
+        <li class="event-item">
+            <h3>Designer Meet & Greet</h3>
+            <p>Date: October 20, 2024</p>
+            <p>Location: iFashion+ Gallery</p>
+        </li>
+    </ul>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; 2024 iFashion+. All rights reserved.</p>
+</footer>
+</body>
 </html>
